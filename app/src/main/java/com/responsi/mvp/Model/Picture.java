@@ -1,9 +1,9 @@
 package com.responsi.mvp.Model;
 
-import javax.annotation.Generated;
+
 import com.google.gson.annotations.SerializedName;
 
-@Generated("com.robohorse.robopojogenerator")
+
 public class Picture{
 
 	@SerializedName("thumbnail")

@@ -1,9 +1,9 @@
 package com.responsi.mvp.Model;
 
-import javax.annotation.Generated;
+
 import com.google.gson.annotations.SerializedName;
 
-@Generated("com.robohorse.robopojogenerator")
+
 public class Name{
 
 	@SerializedName("last")
@@ -42,10 +42,7 @@ public class Name{
 	@Override
  	public String toString(){
 		return 
-			"Name{" + 
-			"last = '" + last + '\'' + 
-			",title = '" + title + '\'' + 
-			",first = '" + first + '\'' + 
-			"}";
+			title+" "+first+" "+last;
+
 		}
 }
